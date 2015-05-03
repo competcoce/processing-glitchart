@@ -10,7 +10,6 @@ def setup():
         for j in range(altura):
             indice = (j * largura) + i
 
-
             if(i < largura / 2):
                 vermelho = red(img.pixels[indice])
                 azul = blue(img.pixels[indice])
