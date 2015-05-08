@@ -4,7 +4,7 @@ def setup():
     img = loadImage("magritte.jpg")
     
     for i in range(len(img.pixels)):
-        if(i+150<len(img.pixels)):
+        if(i+150 < len(img.pixels) ):
             if(i%2 == 0):
                 img.pixels[i] = img.pixels[i+150]                
         
